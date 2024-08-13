@@ -6,18 +6,18 @@
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
 	  <style>
-		  .color{
+		  td.color{
 			  background-color:black;
 			  color:white;
 		  }
 	  </style>
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height: 100%" border="1px">
       <!-- Your code here -->
 		<tr>
 			<td>
-				<table>
+				<table border="1px">
 				<tr>
 					<td colspan="2">Nestes Table 2</td>
 				</tr>
@@ -32,9 +32,11 @@
 				</table>
 			</td>
 			<td>
-				<table>
+				<table border="1px">
 					<tr>
 					<td>Nested Table 1</td>
+                    </tr>
+                    <tr>
 					<td>
 						<ul>
 							<li>List item 1</li>
@@ -48,7 +50,7 @@
 		</tr>
 		<tr>
 			<td>
-				<table>
+				<table border="1px">
 				<tr>
 					<td colspan="2">Nested Table 3</td>
 				</tr>
@@ -59,9 +61,11 @@
 				</table>
 			</td>
 			<td>
-				<table>
+				<table border="1px">
 					<tr>
 					<td>Nested Table 4</td>
+                    </tr>
+                    <tr>
 					<td id="color">HTML</td>
 				</tr>
 				</table>
@@ -70,3 +74,4 @@
     </table>
   </body>
 </html>
+
